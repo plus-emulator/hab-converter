@@ -115,3 +115,7 @@ go test ./...
 ```
 
 The [release workflow](.github/workflows/release.yml) builds binaries for the platforms listed above when a `v*` tag is pushed and embeds the tag as the version. Local builds report `dev` unless a version is supplied with `-ldflags "-X main.version=<version>"`.
+
+## Licence
+
+Licensed under the GNU General Public License, version 3 only (`GPL-3.0-only`). See [LICENSE](LICENSE).
